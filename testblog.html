@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    
+</head>
+<style>
+    .body {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        /* background-color: black; */
+    }
+
+    .navbar1 {
+        position: relative;
+        background-color: black;
+        border-radius: 4px;
+        padding: 5px 0px 10px 7px;
+        /* margin: 10px 10px; */
+        /* box-shadow: 0 4px 8px 0 rgba(61, 172, 172, 0.2), 0 6px 20px 0 rgba(173, 35, 35, 0.19); */
+        /* box-shadow:inset 0em 4em 5px white; */
+        transition: 0.4s;
+    }
+
+    .navbar1:hover {
+        box-shadow: 1px 1px rgba(255, 255, 255, 0.2);
+        background-color: rgb(8, 8, 44);
+        /* box-shadow: inset 1em -1em gold; */
+
+    }
+
+    .navbar1 ul {
+        overflow: auto;
+    }
+
+    .navbar1 li {
+        float: left;
+        list-style: none;
+        padding: 3px 40px;
+        /* color: blue; */
+        /* margin: 4px 14px; */
+
+    }
+
+    .navbar1 ul li a {
+        padding: 4px 5px;
+        /* margin: 3px 31px; */
+        text-decoration: none;
+        color: white;
+        /* overflow: auto; */
+        transition: 0.6s;
+        border-radius: 5px;
+    }
+
+    .navbar1 ul li a:hover {
+        background-color: rgb(235, 224, 165);
+        color: rgb(29, 12, 12);
+        border-radius: 6px;
+        box-shadow: inset 1em 2em gold;
+    }
+
+
+    .search {
+        float: right;
+        position: relative;
+        /* padding: 10px 75px; */
+        right: 130px;
+        top: 10px;
+        color: white;
+    }
+
+    .img {
+
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: -5px 0px;
+        width: 50px;
+    }
+
+
+    .polaroid {
+        position: relative;
+        top: 10px;
+        width: 100%;
+        height: 50%;
+        background-color: black;
+        /* background-color: white; */
+        color: white;
+        margin-bottom: 25px;
+        transition: 0.4s;
+    }
+
+    .polaroid:hover {
+        /* box-shadow: 0 4px 8px 0 rgba(15, 15, 15, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+        /* background-color: blue; */
+        background-color: rgb(114, 36, 240);
+        box-shadow: inset 1em -1em rgb(79, 11, 189);
+        /* box-shadow: inset 1em 2em gold; */
+
+        /* box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2); */
+
+    }
+
+
+
+    .container {
+        text-align: center;
+        padding: 10px 20px;
+        /* transition: 0.4s;  */
+    }
+
+
+    .bottom {
+        padding: 4px 4px;
+        text-align: center;
+        position: relative;
+        top: 10px;
+        color: white;
+        /* background-color: black; */
+    }
+    
+    footer{
+        background-color: black;
+        transition: 0.5s;
+        padding-bottom: 6px;
+
+    }
+    footer:hover{
+        background-color: rgb(36, 36, 46);
+
+    }
+    
+
+
+    .img2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 5%;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    /* .icon{
+        /* display: inline-block; */
+    /*} */
+</style>
+
+<body bgcolor="black">
+    <header>
+        <nav class="navbar1">
+            <div class="search">
+                <img src="paris.jpg" alt="paris" class="img">
+            </div>
+            <ul>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Contact us</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="polaroid">
+        <img src="img_5terre.jpg" alt="" width="100%" height="700">
+        <div class="container">
+            <p><a href="#">Cinque Terre</a></p>
+        </div>
+    </div>
+
+    <div class="polaroid">
+        <img src="lights600x400.jpg" alt="" width="100%" height="700">
+        <div class="container">
+            <p><a href="#">Northern Lights</a></p>
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <!-- <img src="paris.jpg" alt="paris" class="img2" width="10px" height="40px"> -->
+
+        <div class="icon" id="icon1">
+            <!-- <img src="person.jpg" alt=""> -->
+        </div>
+        <div class="icon" id="icon2"></div>
+        <div class="icon" id="icon3"><i class="fa-brands fa-square-instagram"></i></div>
+        <div class="icon" id="icon4"><i class="fa-solid fa-person"></i></div>
+
+
+        <nav class="navbar2">
+            <div class="bottom">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi aliquam aut corporis amet quos hic
+                impedit!
+            </div>
+        </nav>
+    </footer>
+    <script src="https://kit.fontawesome.com/9ec5b08790.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
